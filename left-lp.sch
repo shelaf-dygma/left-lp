@@ -126,10 +126,10 @@ F 1 "CONN_01X10" H 6978 2100 50  0000 L CNN
 F 2 "fp:FPC_10" H 6900 2150 50  0001 C CNN
 F 3 "" H 6900 2150 50  0000 C CNN
 	1    6900 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Notes 6350 1500 0    60   ~ 0
-for leds i5 j5 k5
+for leds i5 j5 k5\nreversed #
 Text Label 3800 3350 2    60   ~ 0
 CA9
 Text Label 3800 3650 2    60   ~ 0
