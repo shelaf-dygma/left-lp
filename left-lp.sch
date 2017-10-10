@@ -80,7 +80,7 @@ U 1 1 59DB2D04
 P 4750 2100
 F 0 "SW2" H 4750 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 4750 2264 50  0000 C CNN
-F 2 "fp:kailhsocketlowprofile" H 4750 2100 50  0001 C CNN
+F 2 "fp:kailh-lp" H 4750 2100 50  0001 C CNN
 F 3 "" H 4750 2100 50  0000 C CNN
 	1    4750 2100
 	1    0    0    -1  
@@ -105,18 +105,6 @@ col6
 Text Label 6700 2500 2    60   ~ 0
 row7
 NoConn ~ 6700 2600
-Text GLabel 6700 1700 0    60   Input ~ 0
-cb4
-Text GLabel 6700 1800 0    60   Input ~ 0
-cb5
-Text GLabel 6700 1900 0    60   Input ~ 0
-cb6
-Text GLabel 6700 2000 0    60   Input ~ 0
-ca9
-Text GLabel 6700 2100 0    60   Input ~ 0
-cb1
-Text GLabel 6700 2200 0    60   Input ~ 0
-cb2
 $Comp
 L CONN_01X10 P1
 U 1 1 59DB2E70
@@ -266,4 +254,60 @@ Text Label 3650 1450 2    60   ~ 0
 col5
 Text Label 4450 1450 2    60   ~ 0
 col6
+Text Label 6700 1700 2    60   ~ 0
+CB4
+Text Label 6700 1800 2    60   ~ 0
+CB5
+Text Label 6700 1900 2    60   ~ 0
+CB6
+Text Label 6700 2000 2    60   ~ 0
+CA9
+Text Label 6700 2100 2    60   ~ 0
+CB1
+Text Label 6700 2200 2    60   ~ 0
+CB2
+$Comp
+L CONN_01X01 P2
+U 1 1 59DB7847
+P 8700 1850
+F 0 "P2" H 8778 1891 50  0000 L CNN
+F 1 "CONN_01X01" H 8778 1800 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0000 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR01
+U 1 1 59DB78E1
+P 8500 1850
+F 0 "#PWR01" H 8500 1600 50  0001 C CNN
+F 1 "Earth" H 8500 1700 50  0001 C CNN
+F 2 "" H 8500 1850 50  0000 C CNN
+F 3 "" H 8500 1850 50  0000 C CNN
+	1    8500 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 59DB7974
+P 8700 2000
+F 0 "P3" H 8778 2041 50  0000 L CNN
+F 1 "CONN_01X01" H 8778 1950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm" H 8700 2000 50  0001 C CNN
+F 3 "" H 8700 2000 50  0000 C CNN
+	1    8700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR02
+U 1 1 59DB797A
+P 8500 2000
+F 0 "#PWR02" H 8500 1750 50  0001 C CNN
+F 1 "Earth" H 8500 1850 50  0001 C CNN
+F 2 "" H 8500 2000 50  0000 C CNN
+F 3 "" H 8500 2000 50  0000 C CNN
+	1    8500 2000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
