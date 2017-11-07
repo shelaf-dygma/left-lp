@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -81,7 +81,7 @@ U 1 1 59DB2D04
 P 4750 2100
 F 0 "SW2" H 4750 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 4750 2264 50  0000 C CNN
-F 2 "fp:kailh-lp" H 4750 2100 50  0001 C CNN
+F 2 "fp:kailhsocketlowprofile" H 4750 2100 50  0001 C CNN
 F 3 "" H 4750 2100 50  0000 C CNN
 	1    4750 2100
 	1    0    0    -1  
@@ -99,13 +99,12 @@ F 3 "" H 5050 2250 50  0000 C CNN
 $EndComp
 Connection ~ 5050 2400
 Connection ~ 4450 2100
-Text Label 6700 2300 2    60   ~ 0
-col5
 Text Label 6700 2400 2    60   ~ 0
-col6
+col5
 Text Label 6700 2500 2    60   ~ 0
+col6
+Text Label 6700 2600 2    60   ~ 0
 row7
-NoConn ~ 6700 2600
 $Comp
 L CONN_01X10 P1
 U 1 1 59DB2E70
@@ -119,7 +118,7 @@ F 4 "1302345" H 6900 2150 60  0001 C CNN "farnell #"
 	1    0    0    1   
 $EndComp
 Text Notes 6350 1500 0    60   ~ 0
-for leds i5 j5 k5\nreversed #
+for leds h5 i5 j5 k5\nreversed #
 Text Label 3800 3350 2    60   ~ 0
 CA9
 Text Label 3800 3650 2    60   ~ 0
@@ -197,34 +196,36 @@ Connection ~ 7350 4450
 Connection ~ 7350 4750
 Connection ~ 7350 5050
 $Comp
-L rgbled rgb-a1
+L rgbled rgb-k5
 U 1 1 59DB3847
 P 8350 5050
-F 0 "rgb-a1" H 8181 5189 60  0000 R CNN
+F 0 "rgb-k5" H 8181 5189 60  0000 R CNN
 F 1 "rgbled" H 8181 5083 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 8350 5050 60  0001 C CNN
+F 2 "fp:3528-4p-rev" H 8350 5050 60  0001 C CNN
 F 3 "" H 8350 5050 60  0001 C CNN
+F 4 "Value" H 8350 5050 60  0001 C CNN "farnell #"
 	1    8350 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-b1
+L rgbled rgb-j5
 U 1 1 59DB384E
 P 7950 5050
-F 0 "rgb-b1" H 7781 5189 60  0000 R CNN
+F 0 "rgb-j5" H 7781 5189 60  0000 R CNN
 F 1 "rgbled" H 7781 5083 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 7950 5050 60  0001 C CNN
+F 2 "fp:3528-4p-rev" H 7950 5050 60  0001 C CNN
 F 3 "" H 7950 5050 60  0001 C CNN
+F 4 "Value" H 7950 5050 60  0001 C CNN "farnell #"
 	1    7950 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c1
+L rgbled rgb-i5
 U 1 1 59DB3855
 P 7550 5050
-F 0 "rgb-c1" H 7381 5189 60  0000 R CNN
+F 0 "rgb-i5" H 7381 5189 60  0000 R CNN
 F 1 "rgbled" H 7381 5083 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 7550 5050 60  0001 C CNN
+F 2 "fp:3528-4p" H 7550 5050 60  0001 C CNN
 F 3 "" H 7550 5050 60  0001 C CNN
 F 4 "2765007" H 7550 5050 60  0001 C CNN "farnell #"
 	1    7550 5050
@@ -263,11 +264,11 @@ Text Label 6700 1800 2    60   ~ 0
 CB5
 Text Label 6700 1900 2    60   ~ 0
 CB6
-Text Label 6700 2000 2    60   ~ 0
-CA9
 Text Label 6700 2100 2    60   ~ 0
-CB1
+CA9
 Text Label 6700 2200 2    60   ~ 0
+CB1
+Text Label 6700 2300 2    60   ~ 0
 CB2
 $Comp
 L CONN_01X01 P2
@@ -281,17 +282,6 @@ F 3 "" H 8700 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR01
-U 1 1 59DB78E1
-P 8500 1850
-F 0 "#PWR01" H 8500 1600 50  0001 C CNN
-F 1 "Earth" H 8500 1700 50  0001 C CNN
-F 2 "" H 8500 1850 50  0000 C CNN
-F 3 "" H 8500 1850 50  0000 C CNN
-	1    8500 1850
-	0    1    1    0   
-$EndComp
-$Comp
 L CONN_01X01 P3
 U 1 1 59DB7974
 P 8700 2000
@@ -303,14 +293,39 @@ F 3 "" H 8700 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR02
-U 1 1 59DB797A
-P 8500 2000
-F 0 "#PWR02" H 8500 1750 50  0001 C CNN
-F 1 "Earth" H 8500 1850 50  0001 C CNN
-F 2 "" H 8500 2000 50  0000 C CNN
-F 3 "" H 8500 2000 50  0000 C CNN
-	1    8500 2000
-	0    1    1    0   
+L CONN_01X01 P4
+U 1 1 59FC778D
+P 8700 1700
+F 0 "P4" H 8778 1741 50  0000 L CNN
+F 1 "CONN_01X01" H 8778 1650 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3mm" H 8700 1700 50  0001 C CNN
+F 3 "" H 8700 1700 50  0000 C CNN
+	1    8700 1700
+	1    0    0    -1  
 $EndComp
+$Comp
+L rgbled rgb-h5
+U 1 1 5A005DD6
+P 7150 5050
+F 0 "rgb-h5" H 6981 5189 60  0000 R CNN
+F 1 "rgbled" H 6981 5083 60  0000 R CNN
+F 2 "fp:3528-4p" H 7150 5050 60  0001 C CNN
+F 3 "" H 7150 5050 60  0001 C CNN
+F 4 "2765007" H 7150 5050 60  0001 C CNN "farnell #"
+	1    7150 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5350 6950 3050
+Wire Wire Line
+	6950 3050 3800 3050
+Text Label 3800 3050 2    60   ~ 0
+CA8
+Text Label 6700 2000 2    60   ~ 0
+CA8
+Connection ~ 6950 4750
+Connection ~ 6950 5050
+NoConn ~ 8500 1700
+NoConn ~ 8500 1850
+NoConn ~ 8500 2000
 $EndSCHEMATC
