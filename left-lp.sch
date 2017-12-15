@@ -219,18 +219,6 @@ F 4 "Value" H 7950 5050 60  0001 C CNN "farnell #"
 	1    7950 5050
 	-1   0    0    -1  
 $EndComp
-$Comp
-L rgbled rgb-i5
-U 1 1 59DB3855
-P 7550 5050
-F 0 "rgb-i5" H 7381 5189 60  0000 R CNN
-F 1 "rgbled" H 7381 5083 60  0000 R CNN
-F 2 "fp:3528-4p" H 7550 5050 60  0001 C CNN
-F 3 "" H 7550 5050 60  0001 C CNN
-F 4 "2765007" H 7550 5050 60  0001 C CNN "farnell #"
-	1    7550 5050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 3350 7350 3350
 Wire Wire Line
@@ -271,28 +259,6 @@ CB1
 Text Label 6700 2300 2    60   ~ 0
 CB2
 $Comp
-L CONN_01X01 P2
-U 1 1 59DB7847
-P 8700 1850
-F 0 "P2" H 8778 1891 50  0000 L CNN
-F 1 "CONN_01X01" H 8778 1800 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3mm" H 8700 1850 50  0001 C CNN
-F 3 "" H 8700 1850 50  0000 C CNN
-	1    8700 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 P3
-U 1 1 59DB7974
-P 8700 2000
-F 0 "P3" H 8778 2041 50  0000 L CNN
-F 1 "CONN_01X01" H 8778 1950 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3mm" H 8700 2000 50  0001 C CNN
-F 3 "" H 8700 2000 50  0000 C CNN
-	1    8700 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X01 P4
 U 1 1 59FC778D
 P 8700 1700
@@ -302,18 +268,6 @@ F 2 "Mounting_Holes:MountingHole_3mm" H 8700 1700 50  0001 C CNN
 F 3 "" H 8700 1700 50  0000 C CNN
 	1    8700 1700
 	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-h5
-U 1 1 5A005DD6
-P 7150 5050
-F 0 "rgb-h5" H 6981 5189 60  0000 R CNN
-F 1 "rgbled" H 6981 5083 60  0000 R CNN
-F 2 "fp:3528-4p" H 7150 5050 60  0001 C CNN
-F 3 "" H 7150 5050 60  0001 C CNN
-F 4 "2765007" H 7150 5050 60  0001 C CNN "farnell #"
-	1    7150 5050
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6950 5350 6950 3050
@@ -326,6 +280,4 @@ CA8
 Connection ~ 6950 4750
 Connection ~ 6950 5050
 NoConn ~ 8500 1700
-NoConn ~ 8500 1850
-NoConn ~ 8500 2000
 $EndSCHEMATC
