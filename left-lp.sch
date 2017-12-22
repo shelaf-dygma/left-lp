@@ -264,8 +264,9 @@ U 1 1 59FC778D
 P 8700 1700
 F 0 "P4" H 8778 1741 50  0000 L CNN
 F 1 "CONN_01X01" H 8778 1650 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3mm" H 8700 1700 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 8700 1700 50  0001 C CNN
 F 3 "" H 8700 1700 50  0000 C CNN
+F 4 "dnp" H 8700 1700 60  0001 C CNN "farnell #"
 	1    8700 1700
 	1    0    0    -1  
 $EndComp
@@ -280,4 +281,17 @@ CA8
 Connection ~ 6950 4750
 Connection ~ 6950 5050
 NoConn ~ 8500 1700
+$Comp
+L CONN_01X01 P2
+U 1 1 5A3A87E7
+P 8700 1900
+F 0 "P2" H 8778 1941 50  0000 L CNN
+F 1 "CONN_01X01" H 8778 1850 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5.5mm" H 8700 1900 50  0001 C CNN
+F 3 "" H 8700 1900 50  0000 C CNN
+F 4 "dnp" H 8700 1900 60  0001 C CNN "farnell #"
+	1    8700 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8500 1900
 $EndSCHEMATC
