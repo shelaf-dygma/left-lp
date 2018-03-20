@@ -1,8 +1,9 @@
-(module kailhsocketlowprofile (layer F.Cu) (tedit 5A002D9E)
-  (fp_text reference SW1 (at 0 -10) (layer F.SilkS) hide
+(module kailhsocketlowprofile (layer F.Cu) (tedit 5A4E3467)
+  (attr smd)
+  (fp_text reference SW1 (at 0 4.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SW_PUSH (at 0 -8) (layer F.Fab)
+  (fp_text value SW_PUSH (at 0 2.75) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 -4.7) (end -0.7 -5.8) (layer F.SilkS) (width 0.15))
