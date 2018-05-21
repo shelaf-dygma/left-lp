@@ -1,4 +1,5 @@
 EESchema Schematic File Version 3
+LIBS:left-lp-cache
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:rgbled
-LIBS:left-lp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -54,7 +53,7 @@ U 1 1 59DB2CF3
 P 3950 2100
 F 0 "SW1" H 3950 2355 50  0000 C CNN
 F 1 "kailh hot plug sockets low profile" H 3950 2264 50  0000 C CNN
-F 2 "fp:kailhsocketlowprofile" H 3950 2100 50  0001 C CNN
+F 2 "raise_fp:kailhsocketlowprofile" H 3950 2100 50  0001 C CNN
 F 3 "" H 3950 2100 50  0000 C CNN
 F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
 F 5 "CPG135001S30" H 0   0   60  0001 C CNN "supplier PN"
@@ -67,7 +66,7 @@ U 1 1 59DB2CFA
 P 4250 2250
 F 0 "D1" V 4296 2172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 4205 2172 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 4250 2250 50  0001 C CNN
+F 2 "raise_fp:D_SOD-123" H 4250 2250 50  0001 C CNN
 F 3 "" H 4250 2250 50  0000 C CNN
 F 4 "2454043" H 4250 2250 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
@@ -84,7 +83,7 @@ U 1 1 59DB2D04
 P 4750 2100
 F 0 "SW2" H 4750 2355 50  0000 C CNN
 F 1 "kailh hot plug sockets low profile" H 4750 2264 50  0000 C CNN
-F 2 "fp:kailhsocketlowprofile" H 4750 2100 50  0001 C CNN
+F 2 "raise_fp:kailhsocketlowprofile" H 4750 2100 50  0001 C CNN
 F 3 "" H 4750 2100 50  0000 C CNN
 F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
 F 5 "CPG135001S30" H 0   0   60  0001 C CNN "supplier PN"
@@ -97,7 +96,7 @@ U 1 1 59DB2D0B
 P 5050 2250
 F 0 "D2" V 5096 2172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5005 2172 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 5050 2250 50  0001 C CNN
+F 2 "raise_fp:D_SOD-123" H 5050 2250 50  0001 C CNN
 F 3 "" H 5050 2250 50  0000 C CNN
 F 4 "2454043" H 0   0   60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
@@ -118,7 +117,7 @@ U 1 1 59DB2E70
 P 6900 2150
 F 0 "P1" H 6978 2191 50  0000 L CNN
 F 1 "FPC 10 way connector, 0.5mm pitch, right angle, bottom contact" H 6978 2100 50  0000 L CNN
-F 2 "fp:FPC_10_2046" H 6900 2150 50  0001 C CNN
+F 2 "raise_fp:FPC_10_2046" H 6900 2150 50  0001 C CNN
 F 3 "" H 6900 2150 50  0000 C CNN
 F 4 "1302345" H 6900 2150 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
@@ -209,7 +208,7 @@ U 1 1 59DB3847
 P 8350 5050
 F 0 "rgb-k5" H 8181 5189 60  0000 R CNN
 F 1 "reverse mount 4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 8181 5083 60  0000 R CNN
-F 2 "fp:3528-4p-rev" H 8350 5050 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 8350 5050 60  0001 C CNN
 F 3 "" H 8350 5050 60  0001 C CNN
 F 4 "Value" H 8350 5050 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
@@ -222,7 +221,7 @@ U 1 1 59DB384E
 P 7950 5050
 F 0 "rgb-j5" H 7781 5189 60  0000 R CNN
 F 1 "reverse mount 4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7781 5083 60  0000 R CNN
-F 2 "fp:3528-4p-rev" H 7950 5050 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 7950 5050 60  0001 C CNN
 F 3 "" H 7950 5050 60  0001 C CNN
 F 4 "Value" H 7950 5050 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
@@ -274,7 +273,7 @@ U 1 1 59FC778D
 P 8700 1700
 F 0 "P4" H 8778 1741 50  0000 L CNN
 F 1 "CONN_01X01" H 8778 1650 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_5mm" H 8700 1700 50  0001 C CNN
+F 2 "raise_fp:MountingHole_5.5mm" H 8700 1700 50  0001 C CNN
 F 3 "" H 8700 1700 50  0000 C CNN
 F 4 "dnp" H 8700 1700 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
@@ -297,7 +296,7 @@ U 1 1 5A3A87E7
 P 8700 1900
 F 0 "P2" H 8778 1941 50  0000 L CNN
 F 1 "CONN_01X01" H 8778 1850 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_5.5mm" H 8700 1900 50  0001 C CNN
+F 2 "raise_fp:MountingHole_5.5mm" H 8700 1900 50  0001 C CNN
 F 3 "" H 8700 1900 50  0000 C CNN
 F 4 "dnp" H 8700 1900 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
@@ -305,10 +304,10 @@ F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR?
+L Earth #PWR01
 U 1 1 5AD72B94
 P 8500 1700
-F 0 "#PWR?" H 8500 1450 50  0001 C CNN
+F 0 "#PWR01" H 8500 1450 50  0001 C CNN
 F 1 "Earth" H 8500 1550 50  0001 C CNN
 F 2 "" H 8500 1700 50  0001 C CNN
 F 3 "~" H 8500 1700 50  0001 C CNN
@@ -316,10 +315,10 @@ F 3 "~" H 8500 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR?
+L Earth #PWR02
 U 1 1 5AD72C13
 P 8500 1900
-F 0 "#PWR?" H 8500 1650 50  0001 C CNN
+F 0 "#PWR02" H 8500 1650 50  0001 C CNN
 F 1 "Earth" H 8500 1750 50  0001 C CNN
 F 2 "" H 8500 1900 50  0001 C CNN
 F 3 "~" H 8500 1900 50  0001 C CNN
