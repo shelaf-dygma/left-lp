@@ -275,8 +275,6 @@ F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6900 2150
 	1    0    0    1   
 $EndComp
-Text Notes 6350 1500 0    60   ~ 0
-for leds h5 i5 j5 k5\nreversed #
 Text Label 3650 3650 2    60   ~ 0
 CB4
 Text Label 3650 3950 2    60   ~ 0
@@ -392,7 +390,7 @@ U 1 1 5B1E65BB
 P 8000 1700
 F 0 "J1" H 8106 1878 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8106 1787 50  0000 C CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 8000 1700 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.7mm_Pad-narrow" H 8000 1700 50  0001 C CNN
 F 3 "~" H 8000 1700 50  0001 C CNN
 	1    8000 1700
 	1    0    0    -1  
@@ -408,6 +406,54 @@ F 3 "~" H 8000 1850 50  0001 C CNN
 	1    8000 1850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8200 1700
-NoConn ~ 8200 1850
+$Comp
+L Conn_01x01_Male J3
+U 1 1 5B1E7797
+P 9000 1650
+F 0 "J3" H 9106 1828 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9106 1737 50  0000 C CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 9000 1650 50  0001 C CNN
+F 3 "~" H 9000 1650 50  0001 C CNN
+	1    9000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01_Male J4
+U 1 1 5B1E77E1
+P 9000 1800
+F 0 "J4" H 9106 1978 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9106 1887 50  0000 C CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 9000 1800 50  0001 C CNN
+F 3 "~" H 9000 1800 50  0001 C CNN
+	1    9000 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9200 1650
+NoConn ~ 9200 1800
+$Comp
+L GND #PWR03
+U 1 1 5B1E7A1F
+P 8200 1700
+F 0 "#PWR03" H 8200 1450 50  0001 C CNN
+F 1 "GND" V 8205 1572 50  0000 R CNN
+F 2 "" H 8200 1700 50  0001 C CNN
+F 3 "" H 8200 1700 50  0001 C CNN
+	1    8200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5B1E7A40
+P 8200 1850
+F 0 "#PWR04" H 8200 1600 50  0001 C CNN
+F 1 "GND" V 8205 1722 50  0000 R CNN
+F 2 "" H 8200 1850 50  0001 C CNN
+F 3 "" H 8200 1850 50  0001 C CNN
+	1    8200 1850
+	0    -1   -1   0   
+$EndComp
+Text Notes 7900 1400 0    60   ~ 0
+mounts
+Text Notes 8850 1400 0    60   ~ 0
+fiducials\n
 $EndSCHEMATC
