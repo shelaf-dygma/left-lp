@@ -5,3 +5,9 @@ s/Pcb/LEFT-LP-Pcb/g
 s/sled1735/LEFT-LP-sled1735/g
 s/USB_C_Daye/LEFT-LP-USB_C_Daye/g
 s/KaihlSocket_LowProfile/LEFT-LP-KaihlSocket_LowProfile/g
+s/D_SOD_123/LEFT-LP-D_SOD_123/g
+s/SOT_23/LEFT-LP-SOT_23/g
+s/R_0603_1608/LEFT-LP-R_0603_1608/g
+s/C_1206/LEFT-LP-C_1206/g
+s/C_0603_1608/LEFT-LP-C_0603_1608/g
+s/TQFP_32/LEFT-LP-TQFP_32/g
