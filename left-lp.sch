@@ -116,10 +116,10 @@ Connection ~ 8200 4250
 Connection ~ 8000 4150
 Connection ~ 8000 3850
 $Comp
-L rgbled rgb-63
+L rgbled rgb-67
 U 1 1 59DB3847
 P 8200 4150
-F 0 "rgb-63" H 8031 4289 60  0000 R CNN
+F 0 "rgb-67" H 8031 4289 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 8031 4183 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8200 4150 60  0001 C CNN
 F 3 "" H 8200 4150 60  0001 C CNN
@@ -132,10 +132,10 @@ F 8 "Value" H 8200 4150 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-62
+L rgbled rgb-66
 U 1 1 59DB384E
 P 7800 4150
-F 0 "rgb-62" H 7631 4289 60  0000 R CNN
+F 0 "rgb-66" H 7631 4289 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 7631 4183 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 7800 4150 60  0001 C CNN
 F 3 "" H 7800 4150 60  0001 C CNN
@@ -191,17 +191,6 @@ F 1 "GND" V 6705 1872 50  0000 R CNN
 F 2 "" H 6700 2000 50  0001 C CNN
 F 3 "" H 6700 2000 50  0001 C CNN
 	1    6700 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 5B1E6096
-P 6700 2100
-F 0 "#PWR02" H 6700 1850 50  0001 C CNN
-F 1 "GND" V 6705 1972 50  0000 R CNN
-F 2 "" H 6700 2100 50  0001 C CNN
-F 3 "" H 6700 2100 50  0001 C CNN
-	1    6700 2100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -280,4 +269,33 @@ Text Notes 7900 1400 0    60   ~ 0
 mounts
 Text Notes 8850 1400 0    60   ~ 0
 fiducials\n
+Text Label 6700 2100 2    60   ~ 0
+CB3
+$Comp
+L rgbled rgb-65
+U 1 1 5B967C30
+P 6700 4150
+F 0 "rgb-65" H 6531 4289 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 6531 4183 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 6700 4150 60  0001 C CNN
+F 3 "" H 6700 4150 60  0001 C CNN
+F 4 "Value" H 6700 4150 60  0001 C CNN "farnell #"
+F 5 "any/open" H -1250 -900 60  0001 C CNN "supplier"
+F 6 "Value" H 6700 4150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 6700 4150 60  0001 C CNN "MOQ"
+F 8 "Value" H 6700 4150 60  0001 C CNN "leadtime"
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+Text Label 3650 3350 2    60   ~ 0
+CB3
+Wire Wire Line
+	3650 3350 6900 3350
+Wire Wire Line
+	6900 3350 6900 4450
+Connection ~ 6900 4150
+Connection ~ 6900 3850
+Connection ~ 6700 3650
+Connection ~ 6700 3950
+Connection ~ 6700 4250
 $EndSCHEMATC
