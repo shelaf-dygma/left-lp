@@ -116,10 +116,10 @@ Connection ~ 8200 4250
 Connection ~ 8000 4150
 Connection ~ 8000 3850
 $Comp
-L rgbled rgb-67
+L rgbled rgb-70
 U 1 1 59DB3847
 P 8200 4150
-F 0 "rgb-67" H 8031 4289 60  0000 R CNN
+F 0 "rgb-70" H 8031 4289 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 8031 4183 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 8200 4150 60  0001 C CNN
 F 3 "" H 8200 4150 60  0001 C CNN
@@ -132,10 +132,10 @@ F 8 "Value" H 8200 4150 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-66
+L rgbled rgb-69
 U 1 1 59DB384E
 P 7800 4150
-F 0 "rgb-66" H 7631 4289 60  0000 R CNN
+F 0 "rgb-69" H 7631 4289 60  0000 R CNN
 F 1 "reverse 4 pin RGB led, com anode" H 7631 4183 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 7800 4150 60  0001 C CNN
 F 3 "" H 7800 4150 60  0001 C CNN
@@ -272,10 +272,10 @@ fiducials\n
 Text Label 6700 2100 2    60   ~ 0
 CB3
 $Comp
-L rgbled rgb-65
+L rgbled rgb-68
 U 1 1 5B967C30
 P 6700 4150
-F 0 "rgb-65" H 6531 4289 60  0000 R CNN
+F 0 "rgb-68" H 6531 4289 60  0000 R CNN
 F 1 "4 pin RGB led, com anode" H 6531 4183 60  0000 R CNN
 F 2 "raise_fp:3528-4p" H 6700 4150 60  0001 C CNN
 F 3 "" H 6700 4150 60  0001 C CNN
