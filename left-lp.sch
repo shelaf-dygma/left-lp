@@ -199,7 +199,7 @@ U 1 1 5B1E65BB
 P 8000 1700
 F 0 "J1" H 8106 1878 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8106 1787 50  0000 C CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad-narrow" H 8000 1700 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.3mm_Pad_narrow" H 8000 1700 50  0001 C CNN
 F 3 "~" H 8000 1700 50  0001 C CNN
 F 4 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1700
@@ -211,7 +211,7 @@ U 1 1 5B1E6611
 P 8000 1850
 F 0 "J2" H 8106 2028 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 8106 1937 50  0000 C CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 8000 1850 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.3mm_Pad" H 8000 1850 50  0001 C CNN
 F 3 "~" H 8000 1850 50  0001 C CNN
 F 4 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    8000 1850
@@ -243,28 +243,6 @@ F 4 "dnp" H 0   0   60  0001 C CNN "supplier"
 $EndComp
 NoConn ~ 9200 1650
 NoConn ~ 9200 1800
-$Comp
-L GND #PWR03
-U 1 1 5B1E7A1F
-P 8200 1700
-F 0 "#PWR03" H 8200 1450 50  0001 C CNN
-F 1 "GND" V 8205 1572 50  0000 R CNN
-F 2 "" H 8200 1700 50  0001 C CNN
-F 3 "" H 8200 1700 50  0001 C CNN
-	1    8200 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 5B1E7A40
-P 8200 1850
-F 0 "#PWR04" H 8200 1600 50  0001 C CNN
-F 1 "GND" V 8205 1722 50  0000 R CNN
-F 2 "" H 8200 1850 50  0001 C CNN
-F 3 "" H 8200 1850 50  0001 C CNN
-	1    8200 1850
-	0    -1   -1   0   
-$EndComp
 Text Notes 7900 1400 0    60   ~ 0
 mounts
 Text Notes 8850 1400 0    60   ~ 0
@@ -298,4 +276,6 @@ Connection ~ 6900 3850
 Connection ~ 6700 3650
 Connection ~ 6700 3950
 Connection ~ 6700 4250
+NoConn ~ 8200 1850
+NoConn ~ 8200 1700
 $EndSCHEMATC
